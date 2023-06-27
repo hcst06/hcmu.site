@@ -58,3 +58,7 @@ body {
     margin: auto;
     background: rgba(255,255,255,.3);
 }
+@media (max-width: 768px) {
+  /* 在小屏幕上应用的样式 */
+  /* 例如调整布局，隐藏不必要的元素等 */
+}
