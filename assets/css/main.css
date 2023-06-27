@@ -58,7 +58,16 @@ body {
     margin: auto;
     background: rgba(255,255,255,.3);
 }
-@media (max-width: 768px) {
-  /* 在小屏幕上应用的样式 */
-  /* 例如调整布局，隐藏不必要的元素等 */
+/* 添加以下样式到 main.css 文件中 */
+
+/* 移动设备自适应 */
+@media only screen and (max-width: 767px) {
+  /* 这里添加针对移动设备的样式 */
+  /* 例如调整元素的大小、位置、字体大小等 */
+  /* 可根据需要进行修改 */
+  
+  /* 示例：调整图片的宽度为100% */
+  .rin-left img {
+    width: 100%;
+  }
 }
